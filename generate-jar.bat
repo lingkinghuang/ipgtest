@@ -1,3 +1,5 @@
+ECHO OFF
+
 cd src
 
 javac com\ipg\my\*.java
@@ -20,4 +22,6 @@ cd bin
 
 jar cfe IpgTest.jar com.ipg.my.InputReader com\ipg\my\**\*.class com\ipg\my\*.class
 
-# This .bat file is untested on Windows - apologies, I do not have the environment for this. 
+PAUSE
+
+# This .bat file is untested on Windows platform
