@@ -10,8 +10,8 @@ public class IpgConstant {
 	public static final double MIN_NUMBER = 1;
 	public static final double MAX_NUMBER = Math.pow(2, 30) - 1;
 	
-	// IpgFileWriter.java
-	public static final int FILE_WRITE = 10000; // every one million 1000000
-	public static final String FILE_PATH = "ipgtest.txt"; 
+	// InputReader.java
+	public static final String FILE_PATH = "ipgtest.log"; 
+	public static final String ERROR_FILE_PATH = "error.log";
 	
 }

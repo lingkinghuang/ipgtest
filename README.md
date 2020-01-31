@@ -1,7 +1,7 @@
 # Ipg Assessment
 
 **Building the jar file**
-- Run the generate-jar.sh or generate-jar.bat
+- Run the generate-jar.sh or generate-jar.bat in its directory
 - Jar file will be compiled and built in the bin directory
 
 **Running the program**

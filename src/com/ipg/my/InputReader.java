@@ -48,7 +48,7 @@ public class InputReader {
 			writeToFile(input, file); 
 
 			long end = System.currentTimeMillis();
-			System.out.println("Time Taken: " + (end - start) + " ms");
+			System.out.println("Time Taken: " + (end - start)/1000 + " seconds");
 
 			// Checks on the number of lines in the generated file
 			resultCheck(input, file);
@@ -69,7 +69,7 @@ public class InputReader {
 			e.printStackTrace();
 		}
 	}
-
+	
 	/**
 	 * result check line numbers in result file against user input
 	 * @param input
