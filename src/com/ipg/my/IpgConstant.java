@@ -12,6 +12,5 @@ public class IpgConstant {
 	
 	// InputReader.java
 	public static final String FILE_PATH = "ipgtest.log"; 
-	public static final String ERROR_FILE_PATH = "error.log";
 	
 }
